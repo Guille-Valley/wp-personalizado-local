@@ -1,0 +1,51 @@
+/*
+Theme Name: Tema-personalizado-GV
+Theme URI: 
+Author: Guille valley
+Author URI: github.com/guille-valley
+Description: Our default theme for 2021
+Tags: blog, one-column, custom-background, custom-colors
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: personalizado
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Custom-Propertys */
+:root {
+    /* Fuentes */
+    --fuentePrincipal: 'Heebo', sans-serif;
+    --fuenteTexto: 'Verdana', sans-serif;
+    --fuenteSecundaria: 'Geneva', sans-serif;
+
+    /* Colores */
+    --colorPrimario: #FF5B00;
+    --grisOscuro: #2F2E2E;
+    --grisClaro: #EBEBEB;
+    --blanco: #FFFFFF;
+    --negro: #3c3c3c;
+
+
+}
+
+html                    { box-sizing: border-box; font-size: 62.5%; /* 10px = 1rem */ }
+*, *:before, *:after    { box-sizing: inherit;}
+body                    { font-size: 16px; /* si nel navegador n osoporta rem */ font-size: 1.6rem; line-height: 1.5; font-family: var(--fuenteSecundaria); }
+h1, h2, h3, h4          { font-family: var(--fuentePrincipal); margin: 1rem 0; line-height: 1.2; }
+
+h1                      { font-size: 6rem; }
+h2                      { font-size: 4.8rem; }
+h3                      { font-size: 3.6rem; }
+h4                      { font-size: 2.4rem; }
+/*  GLobales */
+a                       { text-decoration: none; }
+ul                      { list-style: none; margin: 0; padding: 0; }
+img                     { max-width: 100%; height: auto; }
+.contenedor             { max-width: 1200px; width: 95; margin: 0 auto; }
+
+p                       { font-family: var(--fuenteSecundaria); }
